@@ -1,6 +1,7 @@
 # Phone_call_line_holder
 Waiting for the line with the possibility that real agent come in any moment, but expectation time is very long pissed me off. Got to find a way to solve this problem so I can work on something else while waiting for the line
 
+```
 [Phone call Audio Input]
 |
 |
@@ -10,7 +11,7 @@ Waiting for the line with the possibility that real agent come in any moment, bu
 [Preprocessing audio]
 |
 |
-[torch YAMNET classfy the text]
+[torch Wav2CLIP classfy the text] 
 |
 |
 [Decision Logic: speech & music]
@@ -24,7 +25,7 @@ Waiting for the line with the possibility that real agent come in any moment, bu
 |
 |   A: if key term identify sent alert to other system
 |   B: if nothing find continue check utile the audio chunk end.
-
+```
 
 require:
 torch
